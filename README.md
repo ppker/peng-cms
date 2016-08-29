@@ -1,8 +1,8 @@
 # Peng CMS
 
-YeeCMS - Control Panel Based On Yii2 PHP Framework
+PengCMS - Control Panel Based On Yii2 PHP Framework
 
-Installation
+安装
 ------------
 
 ### Installing Yee CMS application. 
