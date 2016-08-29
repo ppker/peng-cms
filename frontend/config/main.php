@@ -10,13 +10,13 @@ return [
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
     'modules' => [
-        'auth' => [
+        'auth' => [ // auth认证
             'class' => 'yeesoft\auth\AuthModule',
         ],
     ],
     'components' => [
         'view' => [
-            'theme' => [
+            'theme' => [ // 主题
                 'class' => 'frontend\components\Theme',
                 'theme' => 'flatly', //cerulean, cosmo, default, flatly, readable, simplex, united
             ],

@@ -638,3 +638,403 @@ Stack trace:
     'REQUEST_TIME_FLOAT' => 1472441615.612
     'REQUEST_TIME' => 1472441615
 ]
+2016-08-29 06:03:24 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 8972 bytes' 
+
+in D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'D:\\wamp\\www\\git...', 88, Array)
+#1 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< 58157a4...')
+#2 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('D:\\wamp\\www\\git...', Array)
+#3 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-08-29 06:03:24 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '79e5ffb0535ae10570e2c420aad263a88199cb3361ef29c9d385ae2e9188b4a5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"UL8IbPPDC5C4sAz83_aQ_3S4i_IY7-i0\";}'
+    'PHPSESSID' => 'r4mg396b4eahklhf438fe8jnc5'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8115'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8115/admin/page'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=79e5ffb0535ae10570e2c420aad263a88199cb3361ef29c9d385ae2e9188b4a5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22UL8IbPPDC5C4sAz83_aQ_3S4i_IY7-i0%22%3B%7D; PHPSESSID=r4mg396b4eahklhf438fe8jnc5'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;F:\\work_soft\\git\\Git\\cmd;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 8115</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8115'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/git/peng-cms'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/git/peng-cms'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/git/peng-cms/frontend/web/index.php'
+    'REMOTE_PORT' => '59291'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472450604.343
+    'REQUEST_TIME' => 1472450604
+]
+2016-08-29 06:03:26 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 8972 bytes' 
+
+in D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'D:\\wamp\\www\\git...', 88, Array)
+#1 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< 58157a4...')
+#2 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('D:\\wamp\\www\\git...', Array)
+#3 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-08-29 06:03:26 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '79e5ffb0535ae10570e2c420aad263a88199cb3361ef29c9d385ae2e9188b4a5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"UL8IbPPDC5C4sAz83_aQ_3S4i_IY7-i0\";}'
+    'PHPSESSID' => 'r4mg396b4eahklhf438fe8jnc5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/auth/default/captcha' => 'ctgam'
+    '__captcha/auth/default/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8115'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8115/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=79e5ffb0535ae10570e2c420aad263a88199cb3361ef29c9d385ae2e9188b4a5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22UL8IbPPDC5C4sAz83_aQ_3S4i_IY7-i0%22%3B%7D; PHPSESSID=r4mg396b4eahklhf438fe8jnc5'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;F:\\work_soft\\git\\Git\\cmd;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 8115</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8115'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/git/peng-cms'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/git/peng-cms'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/git/peng-cms/frontend/web/index.php'
+    'REMOTE_PORT' => '59294'
+    'REDIRECT_URL' => '/frontend/web/auth/signup'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/auth/signup'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472450606.425
+    'REQUEST_TIME' => 1472450606
+]
+2016-08-29 06:03:26 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 8972 bytes' 
+
+in D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'D:\\wamp\\www\\git...', 88, Array)
+#1 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< 58157a4...')
+#2 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('D:\\wamp\\www\\git...', Array)
+#3 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-08-29 06:03:26 [::1][-][-][info][application] $_GET = [
+    'v' => '57c3d02e907b9'
+]
+
+$_COOKIE = [
+    '_csrf' => '79e5ffb0535ae10570e2c420aad263a88199cb3361ef29c9d385ae2e9188b4a5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"UL8IbPPDC5C4sAz83_aQ_3S4i_IY7-i0\";}'
+    'PHPSESSID' => 'r4mg396b4eahklhf438fe8jnc5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/auth/default/captcha' => 'ctgam'
+    '__captcha/auth/default/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8115'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8115/auth/signup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=79e5ffb0535ae10570e2c420aad263a88199cb3361ef29c9d385ae2e9188b4a5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22UL8IbPPDC5C4sAz83_aQ_3S4i_IY7-i0%22%3B%7D; PHPSESSID=r4mg396b4eahklhf438fe8jnc5'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;F:\\work_soft\\git\\Git\\cmd;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 8115</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8115'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/git/peng-cms'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/git/peng-cms'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/git/peng-cms/frontend/web/index.php'
+    'REMOTE_PORT' => '59291'
+    'REDIRECT_QUERY_STRING' => 'v=57c3d02e907b9'
+    'REDIRECT_URL' => '/frontend/web/auth/captcha'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'v=57c3d02e907b9'
+    'REQUEST_URI' => '/auth/captcha?v=57c3d02e907b9'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472450606.675
+    'REQUEST_TIME' => 1472450606
+]
+2016-08-29 06:03:28 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 8972 bytes' 
+
+in D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'D:\\wamp\\www\\git...', 88, Array)
+#1 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< 58157a4...')
+#2 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('D:\\wamp\\www\\git...', Array)
+#3 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-08-29 06:03:28 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '79e5ffb0535ae10570e2c420aad263a88199cb3361ef29c9d385ae2e9188b4a5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"UL8IbPPDC5C4sAz83_aQ_3S4i_IY7-i0\";}'
+    'PHPSESSID' => 'r4mg396b4eahklhf438fe8jnc5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/auth/default/captcha' => 'ctgam'
+    '__captcha/auth/default/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8115'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8115/auth/signup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=79e5ffb0535ae10570e2c420aad263a88199cb3361ef29c9d385ae2e9188b4a5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22UL8IbPPDC5C4sAz83_aQ_3S4i_IY7-i0%22%3B%7D; PHPSESSID=r4mg396b4eahklhf438fe8jnc5'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;F:\\work_soft\\git\\Git\\cmd;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 8115</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8115'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/git/peng-cms'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/git/peng-cms'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/git/peng-cms/frontend/web/index.php'
+    'REMOTE_PORT' => '59291'
+    'REDIRECT_URL' => '/frontend/web/auth/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/auth/login'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472450608.262
+    'REQUEST_TIME' => 1472450608
+]
+2016-08-29 06:03:37 [::1][-][r4mg396b4eahklhf438fe8jnc5][error][ReflectionException] exception 'ReflectionException' with message 'Class yii\authclient\clients\GoogleOAuth does not exist' in D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2\di\Container.php:422
+Stack trace:
+#0 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2\di\Container.php(422): ReflectionClass->__construct('yii\\authclient\\...')
+#1 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2\di\Container.php(362): yii\di\Container->getDependencies('yii\\authclient\\...')
+#2 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2\di\Container.php(154): yii\di\Container->build('yii\\authclient\\...', Array, Array)
+#3 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\authclient\\...', Array, Array)
+#4 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2-authclient\Collection.php(122): yii\BaseYii::createObject(Array)
+#5 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2-authclient\Collection.php(92): yii\authclient\Collection->createClient('google', Array)
+#6 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2-authclient\Collection.php(75): yii\authclient\Collection->getClient('google')
+#7 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2-authclient\widgets\AuthChoice.php(155): yii\authclient\Collection->getClients()
+#8 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2-authclient\widgets\AuthChoice.php(120): yii\authclient\widgets\AuthChoice->defaultClients()
+#9 D:\wamp\www\git\peng-cms\vendor\yeesoft\yii2-yee-auth\widgets\AuthChoice.php(92): yii\authclient\widgets\AuthChoice->getClients()
+#10 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2-authclient\widgets\AuthChoice.php(280): yeesoft\auth\widgets\AuthChoice->renderMainContent()
+#11 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2\base\Widget.php(102): yii\authclient\widgets\AuthChoice->run()
+#12 D:\wamp\www\git\peng-cms\vendor\yeesoft\yii2-yee-auth\views\default\login.php(53): yii\base\Widget::widget(Array)
+#13 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2\base\View.php(325): require('D:\\wamp\\www\\git...')
+#14 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\wamp\\www\\git...', Array)
+#15 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\wamp\\www\\git...', Array, Object(yeesoft\auth\controllers\DefaultController))
+#16 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('login', Array, Object(yeesoft\auth\controllers\DefaultController))
+#17 D:\wamp\www\git\peng-cms\vendor\yeesoft\yii2-yee-core\controllers\BaseController.php(117): yii\base\Controller->render('login', Array)
+#18 D:\wamp\www\git\peng-cms\vendor\yeesoft\yii2-yee-auth\controllers\DefaultController.php(290): yeesoft\controllers\BaseController->renderIsAjax('login', Array)
+#19 [internal function]: yeesoft\auth\controllers\DefaultController->actionLogin()
+#20 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#22 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('login', Array)
+#23 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('auth/default/lo...', Array)
+#24 D:\wamp\www\git\peng-cms\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 D:\wamp\www\git\peng-cms\frontend\web\index.php(18): yii\base\Application->run()
+#26 {main}
+2016-08-29 06:03:37 [::1][-][r4mg396b4eahklhf438fe8jnc5][info][application] $_COOKIE = [
+    '_csrf' => '79e5ffb0535ae10570e2c420aad263a88199cb3361ef29c9d385ae2e9188b4a5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"UL8IbPPDC5C4sAz83_aQ_3S4i_IY7-i0\";}'
+    'PHPSESSID' => 'r4mg396b4eahklhf438fe8jnc5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/auth/default/captcha' => 'ctgam'
+    '__captcha/auth/default/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8115'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8115/auth/signup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=79e5ffb0535ae10570e2c420aad263a88199cb3361ef29c9d385ae2e9188b4a5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22UL8IbPPDC5C4sAz83_aQ_3S4i_IY7-i0%22%3B%7D; PHPSESSID=r4mg396b4eahklhf438fe8jnc5'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;F:\\work_soft\\git\\Git\\cmd;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 8115</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8115'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/git/peng-cms'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/git/peng-cms'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/git/peng-cms/frontend/web/index.php'
+    'REMOTE_PORT' => '59314'
+    'REDIRECT_URL' => '/frontend/web/auth/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/auth/login'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472450617.121
+    'REQUEST_TIME' => 1472450617
+]
+2016-08-29 11:07:32 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'NavBar' (T_STRING)' in D:\wamp\www\git\peng-cms\frontend\views\layouts\main.php:67
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-29 11:07:32 [::1][-][-][info][application] $_COOKIE = [
+    'cat_visual' => 'm2fun7g0g35np1fh0c81mlmth6'
+    'PHPSESSID' => 'eka79dblqfem8trpmh9cjsovd5'
+    '_csrf' => 'decb8e7e95ebb5d3a277b416af845fb40dcecfc7318232c7a4695c357cc32e47a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Pxtl6_Vh5myiBsmlrjGzo0m8LhvXYerc\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8115'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'cat_visual=m2fun7g0g35np1fh0c81mlmth6; PHPSESSID=eka79dblqfem8trpmh9cjsovd5; _csrf=decb8e7e95ebb5d3a277b416af845fb40dcecfc7318232c7a4695c357cc32e47a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Pxtl6_Vh5myiBsmlrjGzo0m8LhvXYerc%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;F:\\work_soft\\git\\Git\\cmd;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 8115</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8115'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/git/peng-cms'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/git/peng-cms'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/git/peng-cms/frontend/web/index.php'
+    'REMOTE_PORT' => '62760'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472468851.993
+    'REQUEST_TIME' => 1472468851
+]
