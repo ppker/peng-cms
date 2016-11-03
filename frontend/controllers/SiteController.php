@@ -65,15 +65,13 @@ class SiteController extends \yeesoft\controllers\BaseController
         try {
             return $this->runAction($slug);
         } catch (\yii\base\InvalidRouteException $ex) {
-
+            // var_dump($ex->getMessage());die;
         }
-
         //try to display static page from datebase
         $page = Page::getDb()->cache(function ($db) use ($slug) {
             return Page::findOne(['slug' => $slug, 'status' => Page::STATUS_PUBLISHED]);
         }, 3600);
-
-        if ($page) {
+        if ($page) { // id controller config
             $pageAction = new PageAction($slug, $this, [
                 'slug'   => $slug,
                 'page'   => $page,
