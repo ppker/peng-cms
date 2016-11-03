@@ -1,10 +1,10 @@
 <?php
 return [
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
-    'bootstrap' => ['comments', 'yee'],
+    'bootstrap' => ['comments', 'yee'], // 始终加载
     'language' => 'en-US', // en-US
     'sourceLanguage' => 'en-US',
-    'components' => [
+    'components' => [ // 运行时才加载
         'yee' => [
             'class' => 'yeesoft\Yee',
         ],
