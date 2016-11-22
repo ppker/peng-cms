@@ -38,7 +38,7 @@ return [
                 '<module:auth>/<action:(logout|captcha)>' => '<module>/default/<action>',
                 '<module:auth>/<action:(oauth)>/<authclient:\w+>' => '<module>/default/<action>',
             ),
-                'multilingualRules' => [
+            'multilingualRules' => [
                 '<module:auth>/<action:\w+>' => '<module>/default/<action>',
                 '<controller:(category|tag)>/<slug:[\w \-]+>' => '<controller>/index',
                 '<controller:(category|tag)>' => '<controller>/index',
